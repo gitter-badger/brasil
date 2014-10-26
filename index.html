@@ -1,1 +1,82 @@
-<h1>Teste</h1>
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Brasil - Ferramentas utilitárias para desenvolvedores Brasileiros</title>
+		<link rel="stylesheet" href="/static/css/bootstrap.min.css">
+	</head>
+	<body>
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-offset-2 col-xs-8">
+					<h1>
+						<img src="/static/img/brasil-icon.png" alt="Logotipo do projeto">
+						Brasil
+					</h1>
+					<p class="lead">Ferramentas utilitárias para desenvolvedores Brasileiros</p>
+
+					<a target="_blank" href="https://drone.io/github.com/gammasoft/brasil/latest"><img src="https://drone.io/github.com/gammasoft/brasil/status.png" alt="Status da build"> </a>
+					<a target="_blank" href="http://npmjs.org/package/brasil"><img src="https://badge.fury.io/js/brasil.png" alt="Última versão no npm"></a>
+					<img src="http://img.shields.io/npm/dm/brasil.svg" alt="Downloads mensais">
+					<a target="_blank" href="http://gammasoft.mit-license.org/"><img src="http://img.shields.io/badge/Licen%C3%A7a-MIT-brightgreen.svg" alt="Licença"></a>
+
+					<hr>
+
+					<h3><span class="glyphicon glyphicon-ok"></span>&nbsp;O que é?</h3>
+					<p>
+						Brasil é um framework JavaScript para node.js e para o browser, que visa
+						facilitar a vida do desenvolvedor de software brasileiro fornecendo a implementação de diversas
+						rotinas comuns, tais como: validação e formatação de
+						CPF/CNPJ, EAN (código de barras), contas e agências dos principais bancos,
+						chaves de acesso de NFe, CEP dentre outros.
+					</p>
+					<p>
+						O módulo brasil também oferece um conjunto de dados necessários para quem pretende trabalhar com
+						NFe, por exemplo, relação dos códigos CFOPs, relação dos municipios incluindo código IBGE,
+						relação de feriados, dentre outros.
+					</p>
+					<p>
+						Para os usuários da biblioteca em ambiente node.js também está
+						disponível uma funcionalidade de consulta de CNPJs na receita federal.
+						Veja a <a href="http://brasil.gammasoft.com.br">demonstração on-line clicando aqui</a>!
+					</p>
+
+					<h3><span class="glyphicon glyphicon-ok"></span>&nbsp;Instalação</h3>
+
+					<p>Node.js</p>
+					<pre>npm install --save brasil</pre>
+
+					<p>Browser</p>
+					<pre>bower install --save brasil</pre>
+
+					<p>Ou você pode baixar diretamente do GitHub na <a href="https://github.com/gammasoft/brasil/releases">página de releases</a>.</p>
+
+					<h3><span class="glyphicon glyphicon-ok"></span>&nbsp;Utilização</h3>
+					<p>Node.js</p>
+					<pre>var brasil = require('brasil');</pre>
+
+					<p>Browser</p>
+					<pre>var brasil = window.brasil;</pre>
+
+					<h3><span class="glyphicon glyphicon-ok"></span>&nbsp;Sub-módulos</h3>
+					<ul>
+						<li>Formatações</li>
+						<li>Validações</li>
+						<li>Dados</li>
+						<li>Consultas</li>
+						<li>Bancos</li>
+						<li>NFe</li>
+					</ul>
+
+					<hr>
+
+					<p class="text-muted">
+						Gammasoft Desenvolvimento de Software Ltda &#8212; CNPJ: 19.950.366/0001-50 &#8212; <a href="http://gammasoft.mit-license.org">Licença MIT</a>
+					</p>
+				</div>
+			</div>
+		</div>
+		<script src="/static/js/jquery.min.js"></script>
+		<script src="/static/js/bootstrap.min.js"></script>
+	</body>
+</html>
